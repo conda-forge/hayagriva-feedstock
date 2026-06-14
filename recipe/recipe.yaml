@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.10.0"
+  version: "0.10.1"
 
 package:
   name: hayagriva
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/typst/hayagriva/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 41c82a16510cdceb922250e2f133227759c6ee1ff05bef5328598b97f7168edf
+  sha256: bce8393f5200a3672b0d5baade84cfd96646dc7f0e045faedb0bf9a754c1a48d
 
 build:
   number: 0
